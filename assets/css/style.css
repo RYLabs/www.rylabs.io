@@ -1,0 +1,198 @@
+/*
+
+Author: Mahidul Islam Mukto
+website : htt://mukto.info
+mail: muktoapb@gmail.com
+*/
+
+
+/*===========
+Base CSS
+============*/
+
+/*google font*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*===========
+Header CSS
+============*/
+
+.logo {
+    width: 200px;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.navigation {
+    text-align: right;
+}
+
+.navigation ul {
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0px 20px;
+    color: #414141;
+}
+
+section.hero_area {
+    text-align: center;
+    padding: 150px 0;
+    overflow: hidden;
+}
+
+/*about
+-----------------*/
+
+section.about {
+    background: url(../img/hero_bg.png);
+    background-size: 100%;
+    padding-top: 350px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.color_text {
+    color: #e29b2f;
+}
+
+/*Service
+==============*/
+
+.icon img {
+    height: 40px;
+    width: auto;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.service_box {
+    padding-bottom: 30px;
+}
+/*Contact
+===============*/
+form.contactForm {
+    display:  -webkit-box;
+    display:  -ms-flexbox;
+    display:  flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 -7px;
+}
+
+.field_half {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 50%;
+    padding: 7px;
+}
+
+.field_half input,.full textarea {
+    width:  100%;
+    padding: 3px 10px;
+    color: #979797;
+    border: 2px solid #ddd;
+}
+
+.full {
+    width:  100%;
+    padding: 7px;
+}
+
+.full textarea {min-height: 170px;}
+section.contact {
+    padding: 100px 0;
+}
+
+.contact_head h6 {
+    margin: 20px 0;
+}
+button.sumitbtn {
+    color: #fc9b03;
+    border: 1px solid #fc9b03;
+    background:  transparent;
+    padding: 10px 60px;
+    margin-left: 7px;
+    position:  relative;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer_logo {
+    width:  200px;
+    margin:  auto;
+}
+
+footer {
+    padding-bottom: 10px;
+}
+button.sumitbtn:hover {
+    color: #fff;
+}
+
+button.sumitbtn:before {
+    content: '';
+    width: 0px;
+    height: 100%;
+    background: #fc9b03;
+    position:  absolute;
+    top: 0;
+    left:  0;
+    z-index: -1;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+button.sumitbtn:hover:before {
+    width: 100%;
+}
+/*menu
+================*/
+.bar {width: 24px;height:  2px;background:  #000;margin: 7px 0;}
+
+
+.mobile_menu {
+    float:  right;
+    display: none;
+}
+
